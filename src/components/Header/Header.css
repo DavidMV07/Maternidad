@@ -1,0 +1,29 @@
+.Container{
+    background: linear-gradient(270deg, #6a0dad, #9b4dca, #6a0dad);
+    background-size: 600% 600%;
+    animation: animacionMorado 15s ease infinite;
+    color: white;
+}
+
+.Titulo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 20px;
+}
+.Titulo h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    margin-left: 20px;
+}
+.Titulo img{
+    height: 100px;
+}
+
+
+@keyframes animacionMorado {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
